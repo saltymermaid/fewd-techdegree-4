@@ -1,0 +1,40 @@
+/* ============================================= */
+/*                  Colors                       */
+/* ============================================= */
+
+$main-text: #777;
+$text-light: #fff;
+$heading-primary: #58e1c1;
+$default: #51ddfc;
+$success: #63cc82;
+$error: #e4757a;
+$warning: #fd7856;
+$info: #927bc1;
+$img-border: #ccc;
+$col-colors:
+  $info,
+  $warning,
+  #deb2ee,
+  #7ee6fd,
+  #88d9a0,
+  #4da2bb,
+  #ec9fa3,
+  #fd9f85,
+  $error,
+  $success,
+  $default,
+  #80e8d1;
+
+/* ============================================= */
+/*              Other Variables                  */
+/* ============================================= */
+
+$screen-break: 768px;
+
+$buttons: (
+  'default': $default,
+  'success': $success,
+  'error': $error,
+  'warning': $warning,
+  'info': $info,
+)
